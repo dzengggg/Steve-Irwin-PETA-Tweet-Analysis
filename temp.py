@@ -47,3 +47,11 @@ for tweet in searched_tweets:
         score = sia.polarity_scores(tweet.full_text)["compound"]
         scores = np.append(scores, score)
 plt.hist(scores, bins = 3)
+
+fig, ax = plt.subplots()
+ax.hist(scores, bins = 3, histtype = 'bar')
+ax.set_xticks((-0.5,0,0.5))
+ax.set_xticklabels(('Negative', 'Neutral', 'Positive'))
+ax.set_title('Breakdown of Tweet Sentiments')
+ax.set_ylabel('Number of Tweets')
+plt.show()
