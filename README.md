@@ -1,1 +1,2 @@
-# Steve-Irwin-PETA-Tweet-Analysis
+# Steve Irwin PETA Tweet Analysis
+Using the VADER sentiment analysis package, I decided to run it on a sample (5000) of tweets from the comment thread in PETA's insensitive Steve Irwin tweet a few weeks back. I used Tweepy, matplotlib, and VADER in this project. I'm thinking of adding onto this project as well as refining it in the future when I have more time, but the current end result is enough to be included as a fun add on for a project in my Writing for Science Communications class. 
