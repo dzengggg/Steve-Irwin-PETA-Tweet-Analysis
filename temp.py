@@ -4,10 +4,10 @@ import matplotlib.pyplot as plt
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
  
 # Consumer keys and access tokens, used for OAuth
-consumer_key = 'iYFjMRzqNTzgo0xRevLRJbW1Y'
-consumer_secret = 'P8I9NHXw44G4bcogPfnNasaHCfIUiYXJ1LBrWiWaGcDYRniroQ'
-access_token = '1095969288744198144-MGUIMr5YxU47h6DYKWKgb1GfaND8C2'
-access_token_secret = 'OxRs2UzC5UG9VOjSyUt8oxUz4URpWVmAVBRrWFOLb0VAW'
+consumer_key = 'XXXXXXX'
+consumer_secret = 'XXXXXX'
+access_token = 'XXXXXXX'
+access_token_secret = 'XXXXXXXX'
  
 # OAuth process, using the keys and tokens
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
